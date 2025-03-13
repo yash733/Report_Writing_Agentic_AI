@@ -92,5 +92,8 @@ flowchart = './langgraph_workflow/report_orchestrator.png'
 with open(flowchart, 'wb') as f:
     f.write(chart)
 
+with open('./langgraph_workflow/report_orchestrator.txt','w') as f:
+    f.write(res['final_repo'])
+    
 from PIL import Image
 Image.open(flowchart).show()
