@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+python-dotenv
+fastapi
+uvicorn
+langserve
+sse_starlette
+langgraph-cli[inmem]
